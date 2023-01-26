@@ -11,7 +11,8 @@ public class OpenFireFoxBrowser
 		System.setProperty("Webdriver.gecko.driver","F:\\D\\Software testing\\My docs\\Selenium\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		//Thread.sleep(5000);
-		driver.get("https://www.facebook.com/login/"); 
+		driver.get("https://www.facebook.com/login/");
+		driver.close();
 	}
 
 }

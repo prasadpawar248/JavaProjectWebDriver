@@ -23,6 +23,10 @@ public class Locator1
 		
 		driver.findElement(By.name("url")).click();
 		
+		
+	//className locator - className attribute
+	//	driver.findElement(By.className("nav-input nav-progressive-attribute")).click();
+		
 	//linkText Locator - name of link
 		
 		//driver.findElement(By.linkText("Mobiles")).click();

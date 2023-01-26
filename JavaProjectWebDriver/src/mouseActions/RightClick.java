@@ -21,7 +21,7 @@ public class RightClick
 		
 		obj.doubleClick(day).perform();  //double click of mouse.
 		
-		
+	
 	}
 
 }
