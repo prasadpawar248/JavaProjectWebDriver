@@ -1,10 +1,10 @@
-/datePicker/
 /dropDownList/
 /handleAlerts/
 /handleBrowserWindow/
 /handleIframe/
 /locator/
 /mouseActions/
+/pageObjectModel/
 /program/
 /screenShot/
 /waitsInSelenium/

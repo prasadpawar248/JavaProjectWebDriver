@@ -40,7 +40,7 @@ public class HandleWindowPage
 //		System.out.println(secondId);
 		
 	//2)List/ArrayList method
-		List<String> list=new ArrayList(windowIds);
+		ArrayList<String> list=new ArrayList(windowIds);
 		
 		String firstId=list.get(0);
 		String secondId=list.get(1);

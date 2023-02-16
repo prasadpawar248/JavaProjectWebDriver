@@ -13,7 +13,7 @@ public class ConditionalMethods
 		
 		ChromeDriver driver=new ChromeDriver();
 		
-		driver.get("https://en-gb.facebook.com/");
+		driver.get("https://www.facebook.com/");
 		
 	//1 isEnabled method is used to check weather web element is accepting input or not.
 	//if its enable than o/p will true or if its disable than o/p will false.
@@ -36,9 +36,11 @@ public class ConditionalMethods
 		
 		WebElement gender=driver.findElement(By.xpath("//*[@type='radio']"));  //female path
 		
-		gender.isEnabled(); //true
+	//	gender.isEnabled(); //true
+		System.out.println(gender.isEnabled());
 		gender.click();
-		gender.isSelected(); //true	
+	//	gender.isSelected(); //true	
+		System.out.println(gender.isSelected());
 		
 		
 		 

@@ -26,7 +26,7 @@ public class HandlingWebTable
 		
 		//print all table data
 		
-		/*for(int i=2;i<=row;i++)
+		for(int i=2;i<=row;i++)
 		{
 			for(int j=1;j<=col;j++)
 			{
@@ -34,12 +34,12 @@ public class HandlingWebTable
 				System.out.print(text+"       ");
 			}
 			System.out.println();
-		}*/
+		}
 		
 		
 		//4-retrieve specific element from table.
 		
-		for(int r=2; r<=row;r++)
+	/*	for(int r=2; r<=row;r++)
 		{
 			String sElement=driver.findElement(By.xpath("//table[@id='customers']/tbody/tr["+r+"]/td[1]")).getText();
 			
@@ -51,7 +51,7 @@ public class HandlingWebTable
 				String country=driver.findElement(By.xpath("//table[@id='customers']/tbody/tr["+r+"]/td[3]")).getText();
 				System.out.print(country+" ");
 			}
-		}
+		}*/
 		
 		
 		

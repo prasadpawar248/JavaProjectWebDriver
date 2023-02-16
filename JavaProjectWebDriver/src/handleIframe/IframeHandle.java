@@ -16,7 +16,7 @@ public class IframeHandle
 		driver.switchTo().frame(driver.findElement(By.xpath("/html/frameset/frame[1]")));
 		driver.findElement(By.xpath("//*[@id=\"id1\"]/div/input")).sendKeys("hello");
 		
-		driver.switchTo().defaultContent();
+		driver.switchTo().parentFrame(); // back to parent page.
 		
 		driver.switchTo().frame(driver.findElement(By.xpath("/html/frameset/frameset/frame[1]")));
 		driver.findElement(By.xpath("//*[@id=\"id2\"]/div/input")).sendKeys("how are you");
